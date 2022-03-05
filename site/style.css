@@ -1,0 +1,479 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+div.page {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+}
+
+div.menu {
+  float: left;
+  background-color: tomato;
+  width: 100%;
+  height: 100px;
+  border-style: none none solid none;
+  border-color: black;
+  border-width: 2px;
+}
+
+div.entete {
+  float: left;
+  background-color: tomato;
+  width: 100%;
+  height: 100px;
+}
+
+div.entete h1 {
+  display: inline-block;
+  font-weight: bold;
+  height: 100%;
+  line-height: 100%;
+  color: white;
+  font-size: 60px;
+  margin-left: 3%;
+}
+
+div.login_header {
+  font-weight: bold;
+  width: 70%;
+  margin-right: 3%;
+  text-align: right;
+  color: white;
+}
+
+div.login_header a {
+  display: inline-block;
+  font-size: 30px;
+  color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 5% / 20%;
+  margin: 1%;
+  padding: 3px;
+}
+
+div.login_header p {
+  display: inline-block;
+  font-size: 20px;
+  margin: 1%;
+  padding: 3px;
+}
+
+div.login_header p span {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+div.plat {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  float: left;
+  margin: 30px;
+  width: 300px;
+  height: 400px;
+  padding-bottom: 10px;
+  color: black;
+  background-color: whitesmoke;
+}
+
+div.plat:hover {
+  opacity: 0.7;
+}
+
+div.plat p {
+  margin: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+div.plat p span.prix {
+  font-size: 30px;
+}
+
+.photo_plat {
+  width: 100%;
+  border-style: none none solid none;
+  border-color: black;
+  border-width: 2px;
+}
+
+.photo_plat_grand {
+  width: 1000px;
+  float: right;
+  margin: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.bouton_menu {
+  display: inline-block;
+  width: 20%;
+  height: 74px;
+  line-height: 74px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  border-style: solid solid none solid;
+  border-color: black;
+  border-width: 2px;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 26px;
+}
+
+.bouton_menu:hover {
+  background-color: white;
+  color: black;
+}
+
+.description_plat, .prix_plat {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.nom_plat {
+  padding-left: 30px;
+  display: inline-block;
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+}
+
+.description_plat {
+  font-size: 20px;
+  color: black;
+  text-align: justify;
+}
+
+.prix_plat {
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+}
+
+a.commande {
+  display: block;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  margin: 30px auto;
+  width: 80%;
+  color: black;
+  background-color: whitesmoke;
+}
+
+a.commande:hover {
+  opacity: 0.7;
+}
+
+a.commande p {
+  margin: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+a.commande p span.prix {
+  font-size: 30px;
+}
+
+.mode_livraison {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  width: 200px;
+  padding: 10px;
+}
+
+.mode_livraison p {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.bouton_supprime_commande {
+  display: block;
+  width: 250px;
+  clear: both;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  color: black;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 200px;
+  font-weight: bold;
+  margin: 30px;
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.bouton_valide_commande {
+  display: block;
+  width: 250px;
+  clear: both;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  color: black;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+  margin: 30px;
+  background-color: rgba(0, 255, 0, 0.3);
+}
+
+div.plat_commande {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  float: left;
+  margin: 30px;
+  width: 800px;
+  height: 200px;
+  color: black;
+  background-color: whitesmoke;
+}
+
+div.plat_commande p {
+  margin: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+}
+
+div.plat_commande p span.gros {
+  font-size: 30px;
+}
+
+.photo_plat_commande {
+  height: 100%;
+  border-style: none solid none none;
+  border-color: black;
+  border-width: 2px;
+  float: left;
+}
+
+.bouton_supprime_plat {
+  display: block;
+  float: right;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  color: black;
+  padding: 2px;
+  margin: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.titrecateg {
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 30px;
+}
+
+.descingredient {
+  font-size: 15px;
+  color: black;
+  text-align: left;
+}
+
+.descplat {
+  margin: 30px;
+}
+
+div.personne {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  float: left;
+  margin: 30px;
+  width: 800px;
+  height: 300px;
+  color: black;
+  background-color: whitesmoke;
+}
+
+div.personne p {
+  margin: 10px;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: left;
+}
+
+div.personne p span.nom {
+  font-size: 35px;
+}
+
+div.personne p span.metier {
+  font-size: 30px;
+}
+
+.photo_personne {
+  height: 100%;
+  border-style: none solid none none;
+  border-color: black;
+  border-width: 2px;
+  float: left;
+}
+
+.commande_details {
+  margin: 30px;
+  font-size: 20px;
+}
+
+.commande_details form {
+  font-size: 15px;
+}
+
+.commande_details .legende {
+  text-decoration: underline;
+}
+
+.inscription {
+  margin: 30px;
+  padding: 10px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  width: fit-content;
+}
+
+.inscription p {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.inscription input {
+  width: 300px;
+  height: 20px;
+  font-size: 15px;
+}
+
+.inscription .bouton_inscrire {
+  font-weight: bold;
+  height: 35px;
+  font-size: 20px;
+  background-color: whitesmoke;
+}
+
+.deja_compte {
+  margin: 30px;
+  font-size: 15px;
+}
+
+.deja_compte a {
+  color: tomato;
+  text-decoration: underline;
+}
+
+.plus {
+  width: fit-content;
+  height: fit-content;
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.parag {
+  margin: 30px;
+  font-size: 20px;
+}
+
+
+/*
+Barre de menu en fonction de la taille
+*/
+
+@media screen and (max-width: 1600px) {
+  .bouton_menu {
+    font-size: 20px;
+    margin-top: 20px;
+    height: 50px;
+    line-height: 50px;
+  }
+  div.menu {
+    height: 70px;
+  }
+  div.entete {
+    height: 70px;
+  }
+  div.entete h1 {
+    font-size: 40px;
+  }
+  div.session a {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .bouton_menu {
+    font-size: 15px;
+    margin-top: 15px;
+    height: 35px;
+    line-height: 35px;
+  }
+  div.menu {
+    height: 50px;
+  }
+  div.entete {
+    height: 50px;
+  }
+  div.entete h1 {
+    font-size: 25px;
+  }
+  div.session a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bouton_menu {
+    font-size: 10px;
+    margin-top: 5px;
+    height: 25px;
+    line-height: 25px;
+  }
+  div.menu {
+    height: 30px;
+  }
+  div.entete {
+    height: 30px;
+  }
+  div.entete h1 {
+    font-size: 20px;
+  }
+  div.session a {
+    font-size: 10px;
+  }
+}
