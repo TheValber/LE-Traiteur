@@ -2,6 +2,8 @@
 
 University Project
 
+September 2021 - December 2021
+
 Website of a caterer that works with a database.
 
 (All the website is in French)
@@ -49,6 +51,8 @@ The "Notre équipe" (Our Team) page lists the staff of the site (none of these p
 # LE Traiteur [FR]
 
 Projet Universaitaire
+
+Septembre 2021 - Décembre 2021
 
 Site d'un traiteur qui fonctionne avec une base de données.
 
