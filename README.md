@@ -4,9 +4,16 @@ University Project
 
 September 2021 - December 2021
 
-Website of a caterer that works with a database.
+PHP Website of a caterer that works with a PostgreSQL database.
 
 (All the website is in French)
+
+## Specific Features
+
+- Creation of customer account (Registration and connection)
+- Management of a cart / orders
+- Display of database data : List of dishes with prices, images...
+- Implementation of a view that calculates the most ordered dishes of the connected customer
 
 ## How to install ?
 
@@ -54,7 +61,14 @@ Projet Universaitaire
 
 Septembre 2021 - Décembre 2021
 
-Site d'un traiteur qui fonctionne avec une base de données.
+Site d'un traiteur en PHP qui fonctionne avec une base de données PostgreSQL.
+
+## Fonctionnalités spécifiques
+
+- Création de compte client (Inscription et connexion)
+- Gestion d'un panier / de commandes
+- Affichage de données de la base : Liste des plats avec les prix, les images...
+- Implémentation d'une vue qui calcule les plats les plus commandés du client connecté
 
 ## Comment installer ?
 
