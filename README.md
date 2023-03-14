@@ -60,7 +60,7 @@ Site d'un traiteur qui fonctionne avec une base de données.
 
 1. Téléchargez les fichiers
 
-2. Chargez la base de données PostgreSQL et les données d'exemple aavec le dump fourni
+2. Chargez la base de données PostgreSQL et les données d'exemple avec le dump fourni
 
 3. Modifiez le fichier connexion.inc.php avec les identifiants de votre base de données
 
